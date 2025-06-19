@@ -12,7 +12,7 @@ body {
     font-family: "Poppins", sans-serif;
     align-items: center;
     text-align: center;
-    min-height: 90vh;
+    min-height: 100vh;
     background-color: #F9FAFB;
 }
 
@@ -25,18 +25,20 @@ body {
 .subtitle {
     font-size: 20px;
     font-weight: 400;
-    color: #6C727F;
+    color: #181d29;
     margin-bottom: 30px;
 }
 
 .newsletter-form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FFFFFF;
     gap: 15px;
     margin-bottom: 20px;
     border-radius: 16px;
-    padding: 1rem 1rem 0.5rem 1rem;
+    padding: 1.6rem 0.5rem;
     box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
 }
 
@@ -64,4 +66,10 @@ body {
     border: 1px solid #E5E7EB;
     height: 10vh;
     width: 25rem;
+}
+
+.helper-text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
 }
